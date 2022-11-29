@@ -1,0 +1,38 @@
+---Design database for Zen class programme
+
+users
+codekata
+attendance
+topics
+tasks
+company_drives
+mentors
+date
+
+1.Find all the topics and tasks which are thought in the month of October
+
+db.zenclassdb.find{ $month: { date: new Date("oct") } }
+
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+db.zenclassdb.find({
+    created_at: {
+        $gte: ISODate("2020-15-10"),
+        $lte: ISODate("2020-31-10")
+    }
+})
+
+3.Find all the company drives and students who are appeared for the placement.
+
+db.zenclassdb.find( { "company drives": "wipro" } )
+
+4.Find the number of problems solved by the user in codekata
+
+db.zenclassdb.find( { "tasks": "complete" } )
+
+5.Find all the mentors with who has the mentee's count more than 15
+
+db.zenclassdb.aggregate( [{ $count: "myCount" }] )
+
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+

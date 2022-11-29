@@ -1,0 +1,92 @@
+[
+  {
+    "users": 1,
+    "codekata": "Input/Output",
+    "attendance": 50,
+    "topics": "javascript",
+    "tasks": "complete",
+    "company_drives":"",
+    "mentors":"A",
+    "date":"15-oct-2020"
+  },
+  {
+    "users": 2,
+    "codekata": "Absolute Beginner",
+    "attendance": "60",
+    "topics": "css",
+    "tasks": "complete",
+    "company_drives":"",
+    "mentors":"B",
+    "date":"31-oct-2020"
+  },
+  {
+    "users": 3,
+    "codekata": "Array",
+    "attendance": "65",
+    "topics": "nodejs",
+    "tasks": "Notcomplete",
+    "company_drives":"",
+    "mentors":"C",
+    "date":"15-oct-2020"
+  },
+  {
+    "users": 4,
+    "codekata": "Mathematics",
+    "attendance": "70",
+    "topics": "html",
+    "tasks": "Notcomplete",
+    "company_drives":"",
+    "mentors":"A",
+    "date":"31-oct-2020"
+  },
+  {
+    "users": 5,
+    "codekata": "Strings",
+    "attendance": "75",
+    "topics": "html",
+    "tasks": "Notcomplete",
+    "company_drives":"",
+    "mentors":"B",
+    "date":"15-oct-2020"
+  },
+  {
+    "users": 6,
+    "codekata": "Basics",
+    "attendance": "80",
+    "topics": "html",
+    "tasks": "Notcomplete",
+    "company_drives":"",
+    "mentors":"C",
+    "date":"30-oct-2020"
+  },
+  {
+    "users": 7,
+    "codekata": "Companies",
+    "attendance": "90",
+    "topics": "html",
+    "tasks": "complete",
+    "company_drives":"",
+    "mentors":"A",
+    "date":"10-oct-2020"
+  },
+  {
+    "users": 8,
+    "codekata": "Hashing",
+    "attendance": "95",
+    "topics": "react",
+    "tasks": "complete",
+    "company_drives":"",
+    "mentors":"B",
+    "date":"1-oct-2020"
+  },
+  {
+    "users": 9,
+    "codekata": "Dynamic Programming",
+    "attendance": "100",
+    "topics": "react",
+    "tasks": "complete",
+    "company_drives":"",
+    "mentors":"C",
+    "date":"5-oct-2020"
+  }
+]
